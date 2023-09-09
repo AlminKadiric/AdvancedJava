@@ -8,7 +8,7 @@ public class DBDemo {
         CustomerMySQLReader customerMySQLReader = new CustomerMySQLReader();
         List<Customer> customerList = customerMySQLReader.loadCustomers();
         customerList.stream().forEach(customer -> System.out.println(customer));
-        
+
 
 
     }
